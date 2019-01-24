@@ -147,19 +147,19 @@ public class CourseTableLayout extends LinearLayout {
         }
         LinearLayout titleRow = (LinearLayout) courseContainer.getChildAt(0);
         CourseBlock text = (CourseBlock) titleRow.getChildAt(1);
-        text.setText("一");
+        text.setText("Monday");
         text = (CourseBlock) titleRow.getChildAt(2);
-        text.setText("二");
+        text.setText("Tuesday");
         text = (CourseBlock) titleRow.getChildAt(3);
-        text.setText("三");
+        text.setText("Wednesday");
         text = (CourseBlock) titleRow.getChildAt(4);
-        text.setText("四");
+        text.setText("Thursday");
         text = (CourseBlock) titleRow.getChildAt(5);
-        text.setText("五");
+        text.setText("Friday");
         text = (CourseBlock) titleRow.getChildAt(6);
-        text.setText("六");
+        text.setText("Saturday");
         text = (CourseBlock) titleRow.getChildAt(7);
-        text.setText("日");
+        text.setText("Sunday");
     }
 
     private void resetCourseTable() {
